@@ -1,0 +1,36 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+
+.navbar{
+    height:90px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 9999;
+}
+
+:root{
+    --primary-color:#0ea5e9;
+    --black:#0f0f0f;
+    --black-light:#121212;
+    --white:#ffffff;
+    --white-light:#c6c8c9;
+}
